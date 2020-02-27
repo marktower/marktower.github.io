@@ -110,10 +110,6 @@ header {
 
 }
 
-.social-container {
-  // padding: 0 1em;
-}
-
 .social-link {
   border-bottom: none;
   margin-left: 2px;
@@ -207,12 +203,19 @@ article {
 .back-link {
   margin-left: 40px;
   font-size: 1.2em;
+  font-style: italic;
+}
+
+@media screen and (max-width: 550px) {
+  .back-link {
+    margin-left: 0;
+  }
 }
 
 figure {
   flex: 2;
   max-width: 600px;
-  min-width: 400px;
+  flex-basis: 250px;
   background: #fff;
   display: block;
   /*! margin: 0; */
@@ -228,16 +231,16 @@ figure {
 
 }
 
-@media screen and (max-width: 550px) {
-  figure {
-    min-width: auto;
-  }
+.content {
+  flex-basis: 250px;
 }
 
-.content {
-  flex: 1;
-  min-width: 400px;
-  max-width: 600px;
-}
+
+
+// .content {
+//   flex: 1;
+//   min-width: 400px;
+//   max-width: 600px;
+// }
 
 /* Article END */
