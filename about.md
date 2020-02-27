@@ -1,5 +1,7 @@
 ---
 layout: default
+title: About Me - Mark Tower
+permalink: /about/
 ---
 
 # About Me
