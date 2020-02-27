@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<a href="{% link artwork.html %}" class="back-link">Back</a>
+
+<article>
+  <figure>
+    <img src="{{page.image.url}}" width="{{page.image.width}}" height="{{page.image.height}}" />
+  </figure>
+
+  <div class="content">
+    {{content}}
+  </div>
+</article>

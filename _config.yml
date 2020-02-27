@@ -1,0 +1,7 @@
+name: Mark Tower, Artist
+markdown: kramdown
+timezone: America/Chicago
+collections:
+    artwork:
+      output: true
+      permalink: /:collection/:path/

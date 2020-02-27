@@ -1,0 +1,33 @@
+---
+layout: default
+title: Artwork
+permalink: /artwork/
+---
+
+<h1 class="gallery-header">Watercolor</h1>
+
+{% assign watercolors = site.artwork | where: "medium", "watercolor" %}
+
+<div class="gallery">
+{% for artwork in watercolors %}
+    <div class="gallery-item">
+        <a href="{{artwork.url}}">
+            <img src="{{artwork.preview.url}}" width="{{artwork.preview.width}}" />
+        </a>
+    </div>
+{% endfor %}
+</div>
+
+<h1 class="gallery-header">Acrylic</h1>
+
+{% assign acrylics = site.artwork | where: "medium", "acrylic" %}
+
+<div class="gallery">
+{% for artwork in acrylics %}
+    <div class="gallery-item">
+        <a href="{{artwork.url}}">
+            <img src="{{artwork.preview.url}}" width="{{artwork.preview.width}}" />
+        </a>
+    </div>
+{% endfor %}
+</div>
