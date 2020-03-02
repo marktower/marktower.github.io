@@ -7,12 +7,12 @@ medium: watercolor
 categories: [painting, watercolor]
 
 preview:
-  url: "/assets/images/watercolor/rain/preview.jpg"
+  url: "/assets/images/artwork/watercolor/rain/preview.jpg"
   width: 200
   height: 200
 
 image:
-  url: "/assets/images/watercolor/rain/full.jpg"
+  url: "/assets/images/artwork/watercolor/rain/full.jpg"
   width: 600
   height: 600
 ---

@@ -7,12 +7,12 @@ medium: watercolor
 categories: [painting, watercolor]
 
 preview:
-  url: "/assets/images/watercolor/jellyfish/preview.jpg"
+  url: "/assets/images/artwork/watercolor/jellyfish/preview.jpg"
   width: 200
   height: 200
 
 image:
-  url: "/assets/images/watercolor/jellyfish/full.jpg"
+  url: "/assets/images/artwork/watercolor/jellyfish/full.jpg"
   width: 600
   height: 600
 ---

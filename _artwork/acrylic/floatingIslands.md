@@ -7,12 +7,12 @@ medium: acrylic
 categories: [painting, acrylic]
 
 preview:
-  url: "/assets/images/acrylic/floatingIslands/preview.jpg"
+  url: "/assets/images/artwork/acrylic/floatingIslands/preview.jpg"
   width: 200
   height: 200
 
 image:
-  url: "/assets/images/acrylic/floatingIslands/full.jpg"
+  url: "/assets/images/artwork/acrylic/floatingIslands/full.jpg"
   width: 600
   height: 600
 ---

@@ -1,25 +1,24 @@
 ---
-layout: post
+layout: artwork
 short_name: fish
 name: Fish Watercolor
 medium: watercolor
-
+title: Fish Painting
 categories: [painting, watercolor]
 
 
 preview:
-  url: "/assets/images/watercolor/fish/preview.jpg"
+  url: "/assets/images/artwork/watercolor/fish/preview.jpg"
   width: 200
   height: 200
 
 image:
-  url: "/assets/images/watercolor/fish/full.jpg"
+  url: "/assets/images/artwork/watercolor/fish/full.jpg"
   width: 600
   height: 600
 ---
 
-# Fish painting
----
+
 ## Watercolor on Paper
 
 Inspired by some Latte Art.
