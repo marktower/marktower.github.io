@@ -5,3 +5,6 @@ collections:
     artwork:
       output: true
       permalink: /:collection/:path/
+
+# webserver_headers:
+#   "Access-Control-Allow-Origin": "*"
