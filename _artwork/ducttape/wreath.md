@@ -8,12 +8,12 @@ categories: [ductTape]
 
 
 preview:
-  url: "/assets/images/artwork/ducttape/wreath/preview.jpg"
+  url: "/assets/images/artwork/ductTape/wreath/preview.jpg"
   width: 200
   height: 200
 
 image:
-  url: "/assets/images/artwork/ducttape/wreath/full.jpg"
+  url: "/assets/images/artwork/ductTape/wreath/full.jpg"
   width: 600
   height: 680
 ---

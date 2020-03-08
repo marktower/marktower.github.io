@@ -8,12 +8,12 @@ categories: [ductTape]
 
 
 preview:
-  url: "/assets/images/artwork/ducttape/boquet2/preview.jpg"
+  url: "/assets/images/artwork/ductTape/boquet2/preview.jpg"
   width: 200
   height: 200
 
 image:
-  url: "/assets/images/artwork/ducttape/boquet2/full.jpg"
+  url: "/assets/images/artwork/ductTape/boquet2/full.jpg"
   width: 600
   height: 680
 ---
