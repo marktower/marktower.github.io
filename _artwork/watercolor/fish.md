@@ -19,6 +19,4 @@ image:
 ---
 
 
-## Watercolor on Paper
-
 Inspired by some Latte Art.

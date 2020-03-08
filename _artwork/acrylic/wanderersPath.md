@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: artwork
 shortName: wanderers
 name: Wanderer's Pass
 medium: Acrylic
+title: Wanderer's Pass
+
 
 categories: [painting, acrylic]
 
@@ -16,7 +18,3 @@ image:
   width: 600
   height: 600
 ---
-
-# Wanderer's Pass
----
-## Acrylic on Canvas

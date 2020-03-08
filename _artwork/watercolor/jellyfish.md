@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: artwork
 shortName: jellyfish
 name: Jellyfish Watercolor
 medium: Watercolor
+title: Jellyfish Illustration
 
 categories: [painting, watercolor]
 
@@ -16,7 +17,3 @@ image:
   width: 600
   height: 600
 ---
-
-# Jellyfish painting
----
-## Watercolor on Paper

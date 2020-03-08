@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: artwork
 shortName: floatingIslands
 name: Floating Islands
 medium: Acrylic
+title: Floating Islands
 
 categories: [painting, acrylic]
 
@@ -16,7 +17,3 @@ image:
   width: 600
   height: 600
 ---
-
-# Floating Islands
----
-## Acrylic on Canvas

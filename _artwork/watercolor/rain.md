@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: artwork
 shortName: rain
 name: A Rainy Day
 medium: Watercolor
+title: A Rainy Day Painting
 
 categories: [painting, watercolor]
 
@@ -17,6 +18,3 @@ image:
   height: 600
 ---
 
-# A Rainy Day Painting
----
-## Watercolor on Paper

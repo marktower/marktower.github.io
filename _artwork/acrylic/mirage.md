@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: artwork
 shortName: mirage
 name: Mirage
 medium: Acrylic
+title: Mirage
 
 categories: [painting, acrylic]
 
@@ -17,6 +18,3 @@ image:
   height: 600
 ---
 
-# Mirage
----
-## Acrylic on Canvas
