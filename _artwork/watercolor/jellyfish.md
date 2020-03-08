@@ -2,7 +2,7 @@
 layout: post
 shortName: jellyfish
 name: Jellyfish Watercolor
-medium: watercolor
+medium: Watercolor
 
 categories: [painting, watercolor]
 

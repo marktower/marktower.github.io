@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Artist - Mark Tower
+title: Mark Tower - Artist
 ---
 
 <h1 class="gallery-header">Watercolor</h1>
 
-{% assign watercolors = site.artwork | where: "medium", "watercolor" %}
+{% assign watercolors = site.artwork | where: "medium", "Watercolor" %}
 
 <div class="gallery">
 {% for artwork in watercolors %}
@@ -19,10 +19,40 @@ title: Artist - Mark Tower
 
 <h1 class="gallery-header">Acrylic</h1>
 
-{% assign acrylics = site.artwork | where: "medium", "acrylic" %}
+{% assign acrylics = site.artwork | where: "medium", "Acrylic" %}
 
 <div class="gallery">
 {% for artwork in acrylics %}
+    <div class="gallery-item">
+        <a href="{{artwork.url}}">
+            <img src="{{artwork.preview.url}}" width="{{artwork.preview.width}}" />
+        </a>
+    </div>
+{% endfor %}
+</div>
+
+<h1 class="gallery-header">Woodcarving</h1>
+
+
+{% assign woodcarving = site.artwork | where: "medium", "Woodcarving" %}
+
+<div class="gallery">
+{% for artwork in woodcarving %}
+    <div class="gallery-item">
+        <a href="{{artwork.url}}">
+            <img src="{{artwork.preview.url}}" width="{{artwork.preview.width}}" />
+        </a>
+    </div>
+{% endfor %}
+</div>
+
+<h1 class="gallery-header">Duct Tape</h1>
+
+
+{% assign ducttape = site.artwork | where: "medium", "Duct Tape" %}
+
+<div class="gallery">
+{% for artwork in ducttape %}
     <div class="gallery-item">
         <a href="{{artwork.url}}">
             <img src="{{artwork.preview.url}}" width="{{artwork.preview.width}}" />

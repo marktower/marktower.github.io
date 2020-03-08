@@ -2,7 +2,7 @@
 layout: post
 shortName: rain
 name: A Rainy Day
-medium: watercolor
+medium: Watercolor
 
 categories: [painting, watercolor]
 

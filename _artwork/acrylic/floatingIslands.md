@@ -2,7 +2,7 @@
 layout: post
 shortName: floatingIslands
 name: Floating Islands
-medium: acrylic
+medium: Acrylic
 
 categories: [painting, acrylic]
 

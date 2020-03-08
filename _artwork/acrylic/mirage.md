@@ -2,7 +2,7 @@
 layout: post
 shortName: mirage
 name: Mirage
-medium: acrylic
+medium: Acrylic
 
 categories: [painting, acrylic]
 

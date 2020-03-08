@@ -2,7 +2,7 @@
 layout: artwork
 short_name: fish
 name: Fish Watercolor
-medium: watercolor
+medium: Watercolor
 title: Fish Painting
 categories: [painting, watercolor]
 

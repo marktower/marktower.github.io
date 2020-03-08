@@ -32,14 +32,15 @@ title: Contact - Mark Tower
   <input type="submit"  value="Submit">
 </form>
 
+
+<script src="/assets/js/lib/axios.min.js"></script>
+
 <script>
 
   function validateForm() {
     let name  = document.getElementById("name").value;
     let email = document.getElementById("email").value;
     let emailExp =  /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
-    return false;
 
     if (name === '' || email === '') {
       console.log("No name or email");
@@ -56,46 +57,50 @@ title: Contact - Mark Tower
   function submitForm() {
     event.preventDefault();
 
-    if (!validateForm()) {
+    // if (!validateForm()) {
       sendRequest();
-    }
+    // }
     
   }
 
   
   function sendRequest() {
+    // var url = "https://api.airtable.com/v0/app6bbibhTWgVp70P/Table%201";
     var url = "https://api.airtable.com/v0/app6bbibhTWgVp70P/Table%201";
-    var params = "maxRecords=3&view=Grid%20view";
+    var params = {
+      api_key: "key9kGwEGR3RYao1y"
+    };
 
-    fetch(url+params, {
-      method: 'GET',
-      mode: 'cors',
-      headers: {
-        'Authorization': 'Bearer key9kGwEGR3RYao1y'
-      }
-    }).then( (res) => {
-        return res.json();
-    }).then((data) => {
-        console.log(data);
+    
+    axios({
+      method: 'get',
+      url: url,
+      params: params
+    })
+    .then(function (res) {
+      console.log(res);
+      
+    }).catch(function (error) {
+      // console.log(error);
+      
     });
 
-
-
-    // var xhr = new XMLHttpRequest();
-      
-    // xhr.open('GET', url, true);
-    // xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-    // xhr.setRequestHeader('Authorization', 'Bearer key9kGwEGR3RYao1y');
-    // xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
-
-    // xhr.onreadystatechange = function() {
-    //   if(xhr.readyState == 4 && xhr.status == 200) {
-    //     console.log(xhr.responseText);; 
-    //   }
-    // }
-
-    // xhr.send(params);
-
+    // fetch(url, {
+    //   method: 'POST',
+    //   mode: 'cors',
+    //   headers: {
+    //     'Authorization': 'Bearer key9kGwEGR3RYao1y',
+    //     'Access-Control-Allow-Origin':'x-requested-with',
+    //     // 'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS'
+    //   },
+    //   type: 'jsonp'
+    //   // credentials: 'include',
+    //   // data: JSON.stringify(params)
+    // }).then( (res) => {
+    //     return res.json();
+    // }).then((data) => {
+    //     console.log(data);
+    // });
   }
 
 </script>

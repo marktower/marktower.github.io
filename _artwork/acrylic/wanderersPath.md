@@ -2,7 +2,7 @@
 layout: post
 shortName: wanderers
 name: Wanderer's Pass
-medium: acrylic
+medium: Acrylic
 
 categories: [painting, acrylic]
 
